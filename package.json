@@ -1,0 +1,31 @@
+{
+    "name": "layerizer",
+    "description": "COLR/CPAL layered format font generator.",
+    "version": "2.1.0",
+    "license": "Apache-2.0",
+    "author": "Alison G. Watson <alison@nightdivestudios.com>",
+    "contributors": [
+        "Jonathan Kew <jfkthame@gmail.com>",
+        "Tim Guan-tin Chien <timdream@gmail.com>",
+        "Essem <smswessem@gmail.com>"
+    ],
+    "bugs": {
+        "email": "alison@nightdivestudios.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marrub--/layerizer"
+    },
+    "dependencies": {
+        "xml2js": "^0.4.23",
+        "xmlbuilder": "^8.2.2"
+    },
+    "keywords": [
+        "colr",
+        "unicode"
+    ],
+    "homepage": "https://github.com/marrub--/layerizer",
+    "scripts": {
+        "start": "node layerizer.js"
+    }
+}
