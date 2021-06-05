@@ -983,7 +983,7 @@ const main = function(fSourceDir) {
 
     fs.writeFileSync(fOutTtx, ttFont.end({pretty: true}));
 
-	const fOutTtf = fBuildDir + "/" + fontData.info.fontName + ".ttf";
+    const fOutTtf = fBuildDir + "/" + fontData.info.fontName + ".ttf";
 
     unwrapProc(childProcess.spawnSync(
         "ttx",
